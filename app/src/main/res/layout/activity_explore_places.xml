@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExplorePlaces">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ToggleButton
+            android:id="@+id/back_to_explore_places_ia"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="0.5"
+            android:background="#3DA287"
+            android:checked="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/white"
+            android:textOff="EXPLORE PLACES"
+            android:textOn="EXPLORE PLACES"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/plan_route"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="0.5"
+            android:autoText="true"
+            android:background="#53dcb7"
+            android:checked="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/white"
+            android:textOff="PLAN ROUTE"
+            android:textOn="PLAN ROUTE"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/categories"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/restaurant_icon"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:background="@null"
+        android:drawableTop="@drawable/restaurant_icon"
+        android:text="Restaurants"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cafe_icon"
+        app:layout_constraintStart_toStartOf="parent" />
+    app:layout_constraintStart_toStartOf="@+id/categories"
+    app:layout_constraintTop_toBottomOf="@+id/back_to_explore_places_ia" />
+
+    <Button
+        android:id="@+id/cafe_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/cafe_icon"
+        android:background="@null"
+        android:text="Cafes"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/movie_icon"
+        app:layout_constraintStart_toEndOf="@+id/restaurant_icon" />
+    app:layout_constraintStart_toStartOf="@+id/categories"
+    app:layout_constraintTop_toBottomOf="@+id/back_to_explore_places_ia" />
+
+    <Button
+        android:id="@+id/movie_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/movie_icon"
+        android:background="@null"
+        android:text="Movies"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/shopping_icon"
+        app:layout_constraintStart_toEndOf="@+id/cafe_icon" />
+    app:layout_constraintStart_toStartOf="@+id/categories"
+    app:layout_constraintTop_toBottomOf="@+id/back_to_explore_places_ia" />
+
+    <Button
+        android:id="@+id/shopping_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/shopping_icon"
+        android:background="@null"
+        android:text="Malls"
+        android:textSize="12sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/more_icon"
+        app:layout_constraintStart_toEndOf="@+id/movie_icon" />
+    app:layout_constraintStart_toStartOf="@+id/categories"
+    app:layout_constraintTop_toBottomOf="@+id/back_to_explore_places_ia" />
+
+    <Button
+        android:id="@+id/more_icon"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:drawableTop="@drawable/more_icon"
+        android:background="@null"
+        android:text="More"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/categories"
+        app:layout_constraintStart_toEndOf="@+id/shopping_icon" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categories">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/restaurant_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Recommended Restaurants"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/restaurant_seeall"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#53dcb7"
+                    android:onClick="placeList"
+                    android:text="See all"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="925dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant1_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="0"
+                            app:srcCompat="@drawable/angeline_louisiana_kitchen" />
+
+                        <TextView
+                            android:id="@+id/restaurant1_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Angeline Louisiana Kitchen"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant2_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="1"
+                            app:srcCompat="@drawable/musashi" />
+
+                        <TextView
+                            android:id="@+id/restaurant2_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Musashi"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant3_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="2"
+                            app:srcCompat="@drawable/famous_bao" />
+
+                        <TextView
+                            android:id="@+id/restaurant3_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Famous Bao"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant4_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="3"
+                            app:srcCompat="@drawable/cusushi" />
+
+                        <TextView
+                            android:id="@+id/restaurant4_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Cusushi"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant5_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="4"
+                            app:srcCompat="@drawable/in_n_out" />
+
+                        <TextView
+                            android:id="@+id/restaurant5_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="In n Out Burger"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/restaurant6_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="5"
+                            app:srcCompat="@drawable/indian_food" />
+
+                        <TextView
+                            android:id="@+id/restaurant6_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Little India"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/cafe_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Recommended Cafes"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/cafe_seeall"
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="32dp"
+                    android:background="#53dcb7"
+                    android:onClick="placeList"
+                    android:text="See all"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </android.support.constraint.ConstraintLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe1_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="6"
+                            app:srcCompat="@drawable/cafe_strada" />
+
+                        <TextView
+                            android:id="@+id/cafe1_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Cafe Strada"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe2_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="7"
+                            app:srcCompat="@drawable/blue_bottle_coffee" />
+
+                        <TextView
+                            android:id="@+id/cafe2_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Blue Bottle Coffee"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe3_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="8"
+                            app:srcCompat="@drawable/asha_tea_house" />
+
+                        <TextView
+                            android:id="@+id/cafe3_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Asha Tea"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe4_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="9"
+                            app:srcCompat="@drawable/ucha" />
+
+                        <TextView
+                            android:id="@+id/cafe4_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Ucha Tea"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe5_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="10"
+                            app:srcCompat="@drawable/people_cafe" />
+
+                        <TextView
+                            android:id="@+id/cafe5_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="People's Cafe"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/cafe6_img"
+                            android:layout_width="match_parent"
+                            android:layout_height="120dp"
+                            android:background="@null"
+                            android:onClick="placeDetails"
+                            android:tag="11"
+                            app:srcCompat="@drawable/philz_coffee" />
+
+                        <TextView
+                            android:id="@+id/cafe6_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:text="Philz Coffee"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+    <![CDATA[
+
+    app:layout_constraintStart_toStartOf="@+id/categories"
+    app:layout_constraintTop_toBottomOf="@+id/back_to_explore_places_ia" />
+
+]]>
+</android.support.constraint.ConstraintLayout>

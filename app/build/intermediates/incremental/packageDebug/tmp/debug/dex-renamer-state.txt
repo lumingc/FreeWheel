@@ -1,0 +1,4 @@
+#Fri Dec 07 01:53:51 PST 2018
+base.0=/Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

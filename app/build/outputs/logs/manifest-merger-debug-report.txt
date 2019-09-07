@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+MERGED from [com.android.support:design:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ebacc7c2fb26b48b328d28f223f1f080/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e06312850bd74e560ceadaa737916096/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antonio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/af09bf7fda0fb84319a98922524a7208/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/408860cfde22137593da4ada5050badc/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/bb5d29105d4cb897ebcfee28e541eec5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3e366cf164e5acb290337e78463f1e44/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a19adc034df60d7991c73dd1a09d45c8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7997e4ff8ccc2e8af26a7dd69f749ab3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f9d8a5f69bafc6ff60d9563556d6c699/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5c0b32fe8c3658cafdee8686535b7242/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9579f997dc6b3462c4754305df59c666/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/69061de70628c91b79bab3abbfc81766/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f2d47022521b62b8e34747cb1f8eef26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7f3b90f2d80e70cd88132f747c0f6fde/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/71a05bff5f95be7ecd4aca7aab1d8738/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/93930fa022aa50827fbdb54718648db3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cf5141fbdc6b6aa741cfa85db3115ebe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e7179df0512583a48adaf2a4eae70c59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a43fdf583a2ed096f392efbdbddc614a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/35d2b5bab2346153d7ec7dc169d21c72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/267cbe3deb4cb9befc563cb6dcbbef74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c98752e5b8dcd087852f02d05c326bc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24bb0d9a52f87bcb71c8c0ca0458495e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ac4fda68904e08e7b84e2cbdeeae0d30/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3515446f60b33dd4dfb149c2cca40099/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49886a47966afab75cfda6b65dfe8299/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a17805ae2db3164a336286e0aee8817a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41e7c6ebc645aed144a9401b237e03a1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bf92dc05212fa7eaf7f62c17fa10e97c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f251095eeada41ae2554e88a30e64458/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bfbf87188d5d250ddb58bec19e0bac3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0453e104380891476df079eefb5d8fb8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bc946d450697011fe311dbac243b1d1f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e99869653f180cb6f6acc32398a99aa9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:1-56:12
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:12:22-64
+application
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:14:5-54:19
+MERGED from [com.android.support:design:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ebacc7c2fb26b48b328d28f223f1f080/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ebacc7c2fb26b48b328d28f223f1f080/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antonio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/af09bf7fda0fb84319a98922524a7208/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antonio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/af09bf7fda0fb84319a98922524a7208/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/408860cfde22137593da4ada5050badc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/408860cfde22137593da4ada5050badc/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/bb5d29105d4cb897ebcfee28e541eec5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/bb5d29105d4cb897ebcfee28e541eec5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9579f997dc6b3462c4754305df59c666/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9579f997dc6b3462c4754305df59c666/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/69061de70628c91b79bab3abbfc81766/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/69061de70628c91b79bab3abbfc81766/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ac4fda68904e08e7b84e2cbdeeae0d30/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ac4fda68904e08e7b84e2cbdeeae0d30/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:20:9-40
+activity#com.cs160.freewheel.ExplorePlaces
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:21:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:22:13-26:29
+action#android.intent.action.MAIN
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:25:27-74
+activity#com.cs160.freewheel.PlaceDetails
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:28:9-50
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:28:19-47
+activity#com.cs160.freewheel.ListOfPlaces
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:29:19-47
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:38:9-40:71
+	android:value
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:40:13-68
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:39:13-58
+uses-library#org.apache.http.legacy
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:required
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:43:13-50
+activity#com.cs160.freewheel.PlanRoute
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:46:9-48:65
+	android:label
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:48:13-62
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:47:13-38
+activity#com.cs160.freewheel.MapsActivity
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:49:9-51:59
+	android:label
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:51:13-56
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:50:13-41
+activity#com.cs160.freewheel.RouteDetails
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:52:9-50
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:52:19-47
+activity#com.cs160.freewheel.UserRating
+ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:53:9-57
+	android:name
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml:53:19-45
+uses-sdk
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ebacc7c2fb26b48b328d28f223f1f080/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/ebacc7c2fb26b48b328d28f223f1f080/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e06312850bd74e560ceadaa737916096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/e06312850bd74e560ceadaa737916096/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antonio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/af09bf7fda0fb84319a98922524a7208/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/antonio/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/af09bf7fda0fb84319a98922524a7208/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/408860cfde22137593da4ada5050badc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-16.0.0.aar/408860cfde22137593da4ada5050badc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/bb5d29105d4cb897ebcfee28e541eec5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-location-16.0.0.aar/bb5d29105d4cb897ebcfee28e541eec5/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3e366cf164e5acb290337e78463f1e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/3e366cf164e5acb290337e78463f1e44/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a19adc034df60d7991c73dd1a09d45c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a19adc034df60d7991c73dd1a09d45c8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7997e4ff8ccc2e8af26a7dd69f749ab3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/7997e4ff8ccc2e8af26a7dd69f749ab3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f9d8a5f69bafc6ff60d9563556d6c699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/f9d8a5f69bafc6ff60d9563556d6c699/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5c0b32fe8c3658cafdee8686535b7242/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/5c0b32fe8c3658cafdee8686535b7242/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9579f997dc6b3462c4754305df59c666/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-16.0.0.aar/9579f997dc6b3462c4754305df59c666/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/69061de70628c91b79bab3abbfc81766/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/69061de70628c91b79bab3abbfc81766/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f2d47022521b62b8e34747cb1f8eef26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/f2d47022521b62b8e34747cb1f8eef26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7f3b90f2d80e70cd88132f747c0f6fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/7f3b90f2d80e70cd88132f747c0f6fde/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/71a05bff5f95be7ecd4aca7aab1d8738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/71a05bff5f95be7ecd4aca7aab1d8738/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/93930fa022aa50827fbdb54718648db3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/93930fa022aa50827fbdb54718648db3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cf5141fbdc6b6aa741cfa85db3115ebe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/cf5141fbdc6b6aa741cfa85db3115ebe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e7179df0512583a48adaf2a4eae70c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/e7179df0512583a48adaf2a4eae70c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a43fdf583a2ed096f392efbdbddc614a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a43fdf583a2ed096f392efbdbddc614a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/35d2b5bab2346153d7ec7dc169d21c72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/35d2b5bab2346153d7ec7dc169d21c72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/267cbe3deb4cb9befc563cb6dcbbef74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/267cbe3deb4cb9befc563cb6dcbbef74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c98752e5b8dcd087852f02d05c326bc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/c98752e5b8dcd087852f02d05c326bc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24bb0d9a52f87bcb71c8c0ca0458495e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/24bb0d9a52f87bcb71c8c0ca0458495e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/2897ea3f4dffa557f50342cf104729b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ac4fda68904e08e7b84e2cbdeeae0d30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/ac4fda68904e08e7b84e2cbdeeae0d30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3515446f60b33dd4dfb149c2cca40099/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/3515446f60b33dd4dfb149c2cca40099/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49886a47966afab75cfda6b65dfe8299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/49886a47966afab75cfda6b65dfe8299/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a17805ae2db3164a336286e0aee8817a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/a17805ae2db3164a336286e0aee8817a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41e7c6ebc645aed144a9401b237e03a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/41e7c6ebc645aed144a9401b237e03a1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bf92dc05212fa7eaf7f62c17fa10e97c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/bf92dc05212fa7eaf7f62c17fa10e97c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f251095eeada41ae2554e88a30e64458/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f251095eeada41ae2554e88a30e64458/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bfbf87188d5d250ddb58bec19e0bac3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bfbf87188d5d250ddb58bec19e0bac3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0453e104380891476df079eefb5d8fb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0453e104380891476df079eefb5d8fb8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bc946d450697011fe311dbac243b1d1f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/bc946d450697011fe311dbac243b1d1f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e99869653f180cb6f6acc32398a99aa9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/e99869653f180cb6f6acc32398a99aa9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		ADDED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/antonio/Documents/2018Fall/CS160/finalproject-fa18-group32-fa18/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.0.0.aar/ad53b25bf8a72aa95ea8f85d6efaf2c0/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/c61ce602be0872236a5924598851da11/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/antonio/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/100e51978ae6377dfa3c7b60303a968b/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d8139e5a44792cb0e724ef447cc86afc/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/antonio/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/01a65ecb1616a46997d915441da2f902/AndroidManifest.xml:27:13-51

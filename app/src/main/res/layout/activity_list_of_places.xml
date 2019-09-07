@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfPlaces">
+
+    <TextView
+        android:id="@+id/musashi_header2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Restaurants"
+        android:textColor="#53DCB7"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttons" />
+
+    <RadioGroup
+        android:id="@+id/radio_group1"
+        android:layout_width="0dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/open_now_radio"
+            android:layout_width="5dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_background"
+            android:buttonTint="#53DCB7"
+            android:checked="true"
+            android:text="Open now" />
+
+        <RadioButton
+            android:id="@+id/all_places_radio"
+            android:layout_width="5dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_background"
+            android:buttonTint="#53DCB7"
+            android:text="All places" />
+
+    </RadioGroup>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radio_group2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="402dp">
+
+                <RadioButton
+                    android:id="@+id/five_miles_radio"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_background"
+                    android:buttonTint="#53DCB7"
+                    android:checked="true"
+                    android:text="Within 5 miles"
+                    tools:text="Within 5 miles">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/ten_miles_radio2"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Within 10 miles"
+                    tools:text="Within 10 miles">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/twenty_miles_radio"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Within 20 miles"
+                    tools:text="Within 20 miles">
+
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/any_miles_radio"
+                    android:layout_width="120dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Any distance"
+                    tools:text="Any distance">
+
+                </RadioButton>
+
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radio_group3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:buttonTint="#53DCB7"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="402dp">
+
+                <RadioButton
+                    android:id="@+id/all_types_radio"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_button_background"
+                    android:buttonTint="#53DCB7"
+                    android:checked="true"
+                    android:text="All"
+                    tools:text="All">
+
+                </RadioButton>
+
+                <CheckBox
+                    android:id="@+id/chinese_radio"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Chinese"
+                    tools:text="Chinese" />
+
+                <CheckBox
+                    android:id="@+id/american_radio"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="American"
+                    tools:text="American">
+
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/japanese_radio"
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Japanese"
+                    tools:text="Japanese">
+
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/thai_radio"
+                    android:layout_width="70dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="Thai"
+                    tools:text="Thai">
+
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/french_radio"
+                    android:layout_width="90dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/checkbox_background"
+                    android:buttonTint="#53DCB7"
+                    android:text="French"
+                    tools:text="French">
+
+                </CheckBox>
+
+            </RadioGroup>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="358dp"
+                android:layout_height="141dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="2dp"
+                tools:layout_editor_absoluteY="273dp">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/restaurant_name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Angelina’s Louisana Cuisine"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/image_button1"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageButton
+                        android:id="@+id/image_button1"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/angeline_louisiana_kitchen" />
+
+                    <TextView
+                        android:id="@+id/restaurant_type1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="American, French"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toEndOf="@+id/image_button1"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_name1" />
+
+                    <TextView
+                        android:id="@+id/restaurant_open1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Open now "
+                        android:textColor="#00C853"
+                        app:layout_constraintStart_toEndOf="@+id/restaurant_type1"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_name1" />
+
+                    <TextView
+                        android:id="@+id/restaurant_transport1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0.5 miles, 5 min bus ride"
+                        android:textColor="#53DCB7"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/image_button1"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_type1" />
+
+                    <TextView
+                        android:id="@+id/restaurant_accessibility1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Accessibility"
+                        android:textColor="@android:color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/image_button1"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_transport1" />
+
+                    <ImageView
+                        android:id="@+id/restaurant_ratings1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/restaurant_accessibility1"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_transport1"
+                        app:srcCompat="@drawable/accessibility_ratings" />
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view2"
+                android:layout_width="358dp"
+                android:layout_height="142dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="2dp"
+                tools:layout_editor_absoluteY="273dp"
+                android:layout_marginTop="16dp">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/restaurant_name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Musashi"
+                        android:textColor="@android:color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/image_button2"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageButton
+                        android:id="@+id/image_button2"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/musashi" />
+
+                    <TextView
+                        android:id="@+id/restaurant_type2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Japanese"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        app:layout_constraintStart_toEndOf="@+id/image_button2"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_name2" />
+
+                    <TextView
+                        android:id="@+id/restaurant_open2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Open now "
+                        android:textColor="#00C853"
+                        app:layout_constraintStart_toEndOf="@+id/restaurant_type2"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_name2" />
+
+                    <TextView
+                        android:id="@+id/restaurant_transport2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="0.5 miles, 5 min bus ride"
+                        android:textColor="#53DCB7"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/image_button2"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_type2" />
+
+                    <TextView
+                        android:id="@+id/restaurant_accessibility2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="8dp"
+                        android:text="Accessibility"
+                        android:textColor="@android:color/black"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/image_button2"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_transport2" />
+
+                    <ImageView
+                        android:id="@+id/restaurant_ratings2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/restaurant_accessibility2"
+                        app:layout_constraintTop_toBottomOf="@+id/restaurant_transport2"
+                        app:srcCompat="@drawable/accessibility_ratings" />
+
+
+                </android.support.constraint.ConstraintLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ToggleButton
+            android:id="@+id/explore_places"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="0.5"
+            android:background="#3DA287"
+            android:checked="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/white"
+            android:textOff="EXPLORE PLACES"
+            android:textOn="EXPLORE PLACES"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/plan_route"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_weight="0.5"
+            android:autoText="true"
+            android:background="#53dcb7"
+            android:checked="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@android:color/white"
+            android:textOff="PLAN ROUTE"
+            android:textOn="PLAN ROUTE"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
